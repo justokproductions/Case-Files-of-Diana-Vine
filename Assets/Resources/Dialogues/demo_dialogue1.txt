@@ -1,0 +1,39 @@
+Scene| demo explaining how the user interface works.
+
+Diag|Diag1
+Name|Instructor 
+Text|This is a standard dialogue system, used for conversations in the game.  Here I will explain how the user interface works. Press NEXT to continue to the next dialogue.
+Emot|Neutral
+
+Diag|Diag2
+Name|Instructor 
+Text|You can also press the Right Arrow to continue.  This will later become modular under settings.
+Emot|Neutral
+
+Diag|Diag3
+Name|Instructor 
+Text|You can return to a previous dialogue by clicking PREV or by pressing the Left Arrow.  Notice that there is no PREV button on the first dialogue, marking it as the beginning of this conversation.
+Emot|Neutral
+
+Diag|Diag4
+Name|Instructor 
+Text|If you press either Left Arrow or Right Arrow while the text is filling in, it will automatically fill the rest of the line. In order to continue you must releast the key before pressing it again.
+Emot|Neutral
+
+Diag|Diag5
+Name|Instructor 
+Text|Pressing space bar will speed up the flow of the text instead of auto filling it.
+Emot|Neutral
+
+Diag|Diag6
+Name|Instructor 
+Text|The Save button will save your progress in the game, and the Load button will load it.  More details on these later.
+Emot|Neutral
+
+Diag|Diag7
+Name|Instructor 
+Text|When you are on the last dialogue of a conversation, NEXT is replaced by END.  Clicking it or pressing Right Arrow still allows you to move forward, but this will load a new conversation and you will no longer be able to return to these dialogues. Click END and I will explain the structure of the dialogue that you see.
+Emot|Neutral
+
+Loop|No
+Next|/Resources/Dialogues/demo_dialogue2.txt

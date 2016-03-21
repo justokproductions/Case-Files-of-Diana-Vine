@@ -1,0 +1,25 @@
+Scene| Demo_Cross2.  This explains the conclusion of the game sequences.
+
+Diag|Results1
+Name|Instructor
+Text|Presenting the right evidence at the right time triggers a conversation dialogue. This is once again using the "Diag" identifier instead of the "Cross" identifier.
+Emot|Neutral
+
+Diag|Results2
+Name|Instructor
+Text|This is also the most common time for evidence to be removed from your inventory, since it's less likely to cause complications.  This is done with the identifier "Lose" followed by the name/key of the item being removed.  In this case, we are removing "New Evidence" so the line is "Lose|New Evidence"
+Emot|Neutral
+Lose|New Evidence
+
+Diag|Results3
+Name|Instructor
+Text|As per usual conversations, the "Loop" is set to "No".  Typically the Next would either lead to another Cross Examination, another Conversation, transition to the next Exploration sequence (not implemented yet) or trigger the End Game sequence (also not implemented yet).
+Emot|Neutral
+
+Diag|Results4
+Name|Instructor
+Text|For the time being, it's simply been linked to repeat the entire sequence again. Since it is loading the text files again, all changes have been reset, so you can explore further if you wish, or you can just close out the file now.
+Emot|Neutral
+
+Loop|No
+Next|/Resources/Dialogues/demo_dialogue1.txt

@@ -1,0 +1,9 @@
+Scene|Prep for cross examination
+
+Diag|Diag1
+Name|Narrator
+Text|To be continued...
+Emot|none
+
+Loop|Yes
+Next|/Resources/Dialogues/tutorial_cross2.txt

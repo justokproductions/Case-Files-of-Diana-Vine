@@ -1,0 +1,36 @@
+Name|Details
+ID|1.1.0
+Descript|When Evidence is selected, the items in your inventory become unhidden. Later they will have images or 3D objects representing them instead of generic spheres. They also gain a button to select them. Note when you selected this item, the "PRESENT" button appeared.  More on that later.
+Evid|Yes
+Owned|Yes
+
+Name|Name
+ID|1.1.1
+Descript|Evidence is drawn from a parsed text file, like the conversations and cross examinations.  "Name" provides the name of the evidence, as well as it's dictionary key.  
+Evid|Yes
+Owned|Yes
+
+Name|ID and Descript
+ID|1.1.2
+Descript|"ID" is a unique number to it, typically written as [case file].[day of the case].[unique number].  "Descript" is the text you are reading now.  
+Evid|Yes
+Owned|Yes
+
+
+Name|Details: Evid and Owned
+ID|1.1.3
+Descript|"Evid" marks if it counts as evidence or just inventory.  Non-evidence inventory doesn't show up here. It will be important later, but hasn't been implemented. "Owned" markes if the item should begin in your inventory.  Note everything you've seen so far is marked "Yes" for both Evid and Owned.
+Evid|Yes
+Owned|Yes
+
+Name|Non-Evidence
+ID|1.1.4
+Descript|This item is owned, but it is not evidence. These will be important during the unimplemented elements of the game, such as exploration, but right now, you will never see this item within the gameplay.
+Evid|No
+Owned|Yes
+
+Name|New Evidence
+ID|1.1.4
+Descript|This item was added to the inventory. It's also the item that will be used to trigger the next event. It's "Evid" line is still "Yes" but it's "Owned" line is "No"
+Evid|Yes
+Owned|No

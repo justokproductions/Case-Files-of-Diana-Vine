@@ -1,0 +1,90 @@
+Scene| test
+Diag|Diag1
+Name|Diana Vine 
+Text|What are we doing here?
+Emot|Confused
+
+Diag|Diag2
+Name|Yin Yang
+Text|Simple my dear. We are here to test the dialogue features.
+Emot|Smiling
+
+Diag|Diag3
+Name|Diana Vine
+Text|What's a dialogue feature?
+Emot|Confused
+
+Diag|Diag4
+Name|Stern Judge
+Text|How can you be a defense attourney and not know basic things like dialgoue features?
+Emot|Angry
+
+Diag|Diag5
+Name|Diana Vine
+Text|(Maybe because I'm a lawyer, and not a programmer...)
+Emot|Exasperated
+
+Diag|Diag6
+Name|Yin Yang
+Text|Please, honorable judge. This isn't even her first case.
+Emot|Concerned
+
+Diag|Diag7
+Name|Stern Judge
+Text|Very well, I'll allow it for now.
+Emot|Normal
+
+Diag|Diag8
+Name|Paladin
+Text|Wait, does that mean I haven't commited a crime?
+Emot|Confused
+
+Diag|Diag9
+Name|Stern Judge
+Text|I should hope not! That would be very out of character for you!
+Emot|Normal
+
+Diag|Diag10
+Name|Yin Yang
+Text|Agreed. We haven't even had time to establish your character yet.  You're just here to test the camera.
+Emot|Normal
+
+Diag|Diag12
+Name|Paladin
+Text|Well, that's a relief.
+Emot|Relieved
+
+Diag|Diag13
+Name|Diana Vine
+Text|What's with the big door over there?
+Emot|Normal
+
+Diag|Diag14
+Name|Yin Yang
+Text|That's the last thing we need to test.  In fact-
+Emot|Normal
+
+Diag|Diag15
+Name|Bitchy Lawyer
+Text|How dare you have a tutorial without me.
+Emot|Angry
+
+Diag|Diag16
+Name|Yin Yang
+Text|It's not a tutorial, dear.  It's just a test of the dialogue features.  And with that, it's complete.
+Emot|Smiling
+
+Diag|Diag17
+Name|Bitchy Lawyer
+Text|Wait, this is my only scene?!
+Emot|Worried
+
+Diag|Diag18
+Name|Yin Yang
+Text|I'm afraid so, my dear.
+Emot|Concerned
+
+Diag|Diag19
+Name|Diana Vine
+Text|(You can have mine.)
+Emot|Exasperated

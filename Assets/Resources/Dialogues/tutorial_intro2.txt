@@ -1,0 +1,44 @@
+Scene|Lead-in to first witness
+
+Diag|Diag1
+Name|Judge
+Text|Very well.  Mr. Yang.  You may call your first witness to the stand.
+Emot|Neutral
+
+Diag|Diag2
+Name|Yin Yang
+Text|Of course, your honor.  I call Mister Robin Banks to the stand.
+Emot|Friendly
+
+Diag|Diag3
+Name|Robin Banks
+Text|Uh, hello yer honor.
+Emot|Nervous
+
+Diag|Diag4
+Name|Yin Yang
+Text|Now, please, pay attention, Miss Vine.  I am going to ask the defendant several questions.  Once I'm done, it will be your job to cross examine him, and try to find holes in his testimony.
+Emot|Friendly
+
+Diag|Diag5
+Name|Diane Vine
+Text|Why are you helping me?  Aren't we opponents?
+Emot|Curious
+
+Diag|Diag6
+Name|Yin Yang
+Text|True, but I feel that we are also allies.  Only by both sides working to the best of their abilities will the truth reveal itself.
+Emot|Friendly
+
+Diag|Diag7
+Name|Yin Yang
+Text|So, Miss Vine.  Let us find the truth together.
+Emot|Friendly
+
+Diag|Diag8
+Name|Diane Vine
+Text|Um, okay
+Emot|Confused
+
+Loop|No
+Next|/Resources/Dialogues/tutorial_intro3.txt

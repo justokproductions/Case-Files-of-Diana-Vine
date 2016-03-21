@@ -1,0 +1,407 @@
+Scene|Prep for cross examination
+
+Cross|Cross1
+Name|Robin Banks
+Text|So we was all set to rob da bank.  The tricky part is the guards.
+Emot|Happy
+
+Press|Press1.1
+Name|Diana Vine
+Text|Why are the guards so tricky?
+Emot|Curious
+
+Press|Press1.2
+Name|Robin Banks
+Text|Well, they's the ones that're paid ta try an' stop us.
+Emot|Nervous
+
+Press|Press1.3
+Name|Diana Vine
+Text|I can see how that would make them a bit problematic.
+Emot|Thoughtful
+
+Press|Press1.4
+Name|Robin Banks
+Text|That an' they's the only udder ones what with guns.
+Emot|Nervous
+
+Press|Press1.5
+Name|Diana Vine
+Text|I can imagine getting shot would make robbing a bank harder.
+Emot|Thinking
+
+Press|Press1.6
+Name|Robin Banks
+Text|An' that's not even th' tricky part.
+Emot|Nervous
+
+Cross|Cross2
+Name|Robin Banks
+Text|Sees, there's always a guard at the front door, but there's also anudder guard patrollin.  An he can be anywheres. Ya don't want to bust in, unless yeh know where both guards are.
+Emot|Serious
+
+Press|Press2.1
+Name|Diana Vine
+Text|I agree.  If I were to rob a bank, I would definitely want to know everything about those guards.
+Emot|Serious
+
+Press|Press2.2
+Name|Judge
+Text|Counselor Vine! You aren't seriously contemplating robbing a bank, are you?!
+Emot|Angry
+
+Press|Press2.3
+Name|Yin Yang
+Text|Of course she wasn't, your honor.  I'm sure she was just empathizing with the witness.  Isn't that correct, Miss Vine.
+Emot|Friendly
+
+Press|Press2.4
+Name|Diana Vine
+Text|Of course!  I would never rob a bank!
+Emot|Angry
+
+Press|Press2.5
+Name|Diana Vine
+Text|(although if I were going to rob a bank...)
+Emot|Thinking
+
+Press|Press2.6
+Name|Yin Yang
+Text|Miss Vine.  I would recommend seeing your legal career to its fruition before considering alternate sources of income.
+Emot|Serious
+
+Press|Press2.7
+Name|Diana Vine
+Text|R-right.  Of course.  So, Mr. Banks.  How did you overcome this obstacle?
+Emot|Embarrassed
+
+Cross|Cross3
+Name|Robin Banks
+Text|So we's got my good friend Crystal there, to set up a scry, an’ warn us where the guard was.
+Emot|Happy
+
+Press|Press3.1
+Name|Diana Vine
+Text|Are you implying that you are friends with my client, Miss Ball?!
+Emot|Serious
+
+Press|Press3.2
+Name|Robin Banks
+Text|Well, I thought I was statin' it directly, but I guess so...
+Emot|Confused
+
+Press|Press3.3
+Name|Diana Vine
+Text|How in the world do you know my client?
+Emot|Angry
+
+Press|3.4
+Name|Robin Banks
+Text|Oh, that's easy.  We went t' highschool t'gedder.
+Emot|Happy
+
+Press|3.5
+Name|Diana Vine
+Text|You went to the high school to get her?  But Miss Ball is a graduated insurance agent. Why would she be at high school?
+Emot|Confused
+
+Press|3.6
+Name|Yin Yang
+Text|I believe he meant, that they went to high school TOGETHER, back when both of them were younger, of course.
+Emot|Serious
+
+Press|3.7
+Name|Robin Banks
+Text|Yeah.  Dat's whut I said.  T'gedder.
+Emot|Confused
+
+Press|3.8
+Name|Diana Vine
+Text|Oh, yeah.  I guess that makes a lot more sense.
+Emot|Thinking
+
+Press|3.9
+Name|Yin Yang
+Text|Bad enunciation aside, I think you'll find this is very important information.  You can request that this be added to the testimony. That way, you can investigate further.
+Emot|Friendly
+
+Press|3.10
+Name|Diana Vine
+Text|Right.  Of course!
+Emot|Nervous
+
+Press|3.11
+Name|Diana Vine
+Text|Your honor, I demand that the witness revise his testimony and include that they allegedly went to highschool together.
+Emot|Serious
+
+Press|3.12
+Name|Judge
+Text|Very good.  Witness, please revise your testimony.
+Emot|Serious
+
+Press|3.13
+Name|Robin Banks
+Text|Sure thin' yer honor.  Ain’t no skin off my teeth.
+Emot|Bored
+
+PressAlt|PressAlt3.1
+Name|Diana Vine
+Text|And how did you two become such "good friends"?
+Emot|Angry
+
+PressAlt|PressAlt3.2
+Name|Robin Banks
+Text|Oh, dat's simple.
+Emot|Bored
+
+CrossAdded|Cross4
+Name|Robin Banks
+Text|After all, we went t' high school t'gedder!
+Emot|Happy
+Corr|1.1.1
+
+PressAdded|Press4.1
+Name|Diana Vine
+Text|Objection, your honor!  That man is lying! He never went to school with Miss Ball!
+Emot|Angry
+
+PressAdded|Press4.2
+Name|Judge
+Text|Oh really?  And what is your proof?
+Emot|Curious
+
+PressAdded|Press4.3
+Name|Diana Vine
+Text|I went to highschool with Crystal!
+Emot|Confident
+
+PressAdded|Press4.4
+Name|Judge
+Text|And are you calling yourself to the stand then?
+Emot|Curious
+
+PressAdded|Press4.5
+Name|Yin Yang
+Text|That would be a highly unconventional tactic.  But even if you did, unless you could prove that you have a perfect memory, and met with everybody in your entire school, it doesn't PROVE that he wasn't there.
+Emot|Serious
+
+PressAdded|Press4.6
+Name|Diana Vine
+Text|But, but, but... I KNOW he wasn't there!
+Emot|Shocked
+
+PressAdded|Press4.7
+Name|Yin Yang
+Text|And - unofficially, mind you - I believe you.  But this court isn't founded on memory and opinions, it's founded on factual evidence.  Take a look at your EVIDENCE.  Once you find the information that proves he wasn't at your high school, you can PRESENT it to the court.
+Emot|Friendly
+
+PressAdded|Press4.8
+Name|Diana Vine
+Text|(Alright, I can do this.  Find the EVIDENCE and PRESENT it. It's got to be here!)
+Emot|Determined
+
+Cross|Cross5
+Name|Robin Banks
+Text|So she was watchin' everythin' remotely, and warns us that the guard is behind that pillar there.
+Emot|Serious
+
+Press|Press5.1
+Name|Diana Vine
+Text|And how did she warn you?  Clairvoyance is one-way!
+Emot|Smug
+
+Press|Press5.2
+Name|Robin Banks
+Text|We had walkie-talkies.
+Emot|Happy
+
+Press|Press5.3
+Name|Diana Vine
+Text|Oh...
+Emot|Embarrassed
+
+Press|Press5.4
+Name|Robin Banks
+Text|Yeah, they's pretty cool. I had an ear piece, in my ear.  An' I felt like I was a secret agent or somethin' an-
+Emot|Excited
+
+Press|Press5.5
+Name|Diana Vine
+Text|Yes, yes. I get it! Just tell me what you did next, Mr. Bond.
+Emot|Annoyed
+
+Cross|Cross6
+Name|Robin Banks
+Text|We subdue the guard at the front, and move in to take out the second guard.  Things went a lil' sideways, an’ Battery shot the guard.
+Emot|Upset
+
+Press|Press6.1
+Name|Diana Vine
+Text|What do you mean by "went a little sideways"?
+Emot|Confused
+
+Press|Press6.2
+Name|Robin Banks
+Text|Tha's lingo fer when things go bad.  See's, we didn' want to shot no guard.
+Emot|Thinking
+
+Press|Press6.3
+Name|Diana Vine
+Text|But you did shoot the guard.
+Emot|Determined
+
+Press|Press6.4
+Name|Robin Banks
+Text|Well, not me.  I told ya, it was Battery, what shot him.
+Emot|Embarrassed
+
+Press|Press6.5
+Name|Diana Vine
+Text|And then he's lying sideways.  Is that why it's called that?
+Emot|Thinking
+
+Press|Press6.6
+Name|Robin Banks
+Text|Nah, that ain't it.  It's like, if yer movin' towards yer goal, that's good.  But then suddenly, yer movin' sideways, an yer not gettin any closer.  In fact, yer gettin further away, geometrically speakin'.
+Emot|Thinking
+
+Press|Press6.7
+Name|Diana Vine
+Text|(How does a guy like this even know the word "geometrically"?)
+Emot|Annoyed
+
+Cross|Cross7
+Name|Robin Banks
+Text|So we grabbed the loot and fled the scene.
+Emot|Serious
+
+Press|Press7.1
+Name|Diana Vine
+Text|And that's when you got caught by former ninja/now paladin Jubei Ginzu?!
+Emot|Excited
+
+Press|Press7.2
+Name|Robin Banks
+Text|Oh yeah.  That was an interestin’ bout.  See's, he drops in and all, but dere's three of us, an only one o' him, an' all of us are armed.  So he-
+Emot|Happy
+
+Press|Press7.3
+Name|Yin Yang
+Text|For the last time, Mr. Banks.  Nobody wants to hear about your boring little scuffle.  Just skip that part of the events.
+Emot|Annoyed
+
+Press|7.4
+Name|Diana Vine
+Text|(I wouldn't mind hearing a bit more...)
+Emot|Sad
+
+
+Diag|Conclusion1
+Name|Diana Vine
+Text|Crystal is depending on me!  I can do this!
+Emot|Thinking
+
+Diag|Conclusion2
+Name|Diana Vine
+Text|What did Mister Yang say?
+Emot|Thinking
+
+Diag|Conclusion3
+Name|Diana Vine
+Text|First I need to PRESS the witness until I get more information...
+Emot|Thinking
+
+Diag|Conclusion4
+Name|Diana Vine
+Text|Then I need to find the EVIDENCE that contradicts his testimony and PRESENT it to the court.
+Emot|Thinking
+
+Diag|Conclusion5
+Name|Diana Vine
+Text|Crystal, I will not let you down!
+Emot|Determined
+
+
+
+Fail|Fail1.1
+Name|Diana Vine
+Text|Your honor! This evidence clearly proves that the witness is lying?!
+Emot|Excited
+
+Fail|Fail1.2
+Name|Judge
+Text|No it doesn't.
+Emot|Bored
+
+Fail|Fail1.3
+Name|Diana Vine
+Text|Are you sure?
+Emot|Nervous
+
+Fail|Fail1.4
+Name|Judge
+Text|Yes.
+Emot|Bored
+
+Fail|Fail1.5
+Name|Diana Vine
+Text|Are you absolutely sure?
+Emot|Nervous
+
+Fail|Fail1.6
+Name|Judge
+Text|Yes! I suggest you try something else!
+Emot|Bored
+
+Fail|Fail1.7
+Name|Diana Vine
+Text|Rats, I thought i had something there.
+Emot|Nervous
+
+NewF|Yes
+
+Fail|Fail2.1
+Name|Diana Vine
+Text|Your honor! There is a clear contradiction in his statement!
+Emot|Excited
+
+Fail|Fail2.2
+Name|Judge
+Text|Really?  Where?
+Emot|Confused
+
+Fail|Fail2.3
+Name|Diana Vine
+Text|He combined "did" and "not" to form "didn't"!
+Emot|Excited
+
+Fail|Fail2.4
+Name|Judge
+Text|That's a contraction, not a contradiction. I think you need a new dictionary.
+Emot|Angry
+
+Fail|Fail2.5
+Name|Diana Vine
+Text|(Great. I've got nothing to work with, and the judge thinks I'm an idiot...)
+Emot|Nervous
+
+
+
+GameOver|GameOver1
+Name|Judge
+Text|I think we've let this go on long enough.
+Emot|Angry
+
+GameOver|GameOver2
+Name|Judge
+Text|I find Crystal guilty of felony murder.
+Emot|Angry
+
+GameOver|GameOver3
+Name|Judge
+Text|You may want to find a new career path, Miss Vine.  Although I strongly recommend you find something other than robbing banks.
+Emot|Angry
+
+Loop|Yes
+Next|/Resources/Dialogues/tutorial_cross2.txt

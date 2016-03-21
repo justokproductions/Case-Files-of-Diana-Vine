@@ -1,0 +1,16 @@
+Name|Rod
+ID|X.X.0
+Descript|My rod identifies me as a diviner. I heard some cultures use badges for this kind of thing, but that just seems silly
+Evid|Yes
+Owned|Yes
+
+Name|DNA Evidence
+ID|1.1.0
+Descript|Well, it says DNA Evidence, so I guess it is.
+Evid|Yes
+
+Name|Bomb
+ID|1.1.1
+Descript|Why do I have a bomb?!
+Evid|No
+Owned|Yes

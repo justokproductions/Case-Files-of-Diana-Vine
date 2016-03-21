@@ -1,0 +1,25 @@
+Name|Rod
+ID|X.X.0
+Descript|My rod identifies me as a diviner. I heard some cultures use badges for this kind of thing, but that just seems silly
+Evid|Yes
+Owned|Yes
+
+Name|Bio: Crystal Ball
+ID|1.1.0
+Descript|Crystal Ball graduated high school in 1998, and college in 2004. She currently works as an insurance agent, and was promoted two weeks ago.
+Evid|Yes
+
+Name|Rap sheet
+ID|1.1.1
+Descript|This rap sheet is really long.  Most of it minor, but he was convicted of robbery back in 1993 and did five years.
+Evid|Yes
+
+Name|Bank map
+ID|1.1.2
+Descript|A map of the bank.  It has red X's where the two guards stood, a blue arrow where the robbers entered, and a white circle where the fetish was hidden for the scry.
+Evid|Yes
+
+Name|Scrying fetish
+ID|1.1.3
+Descript|A simple fetish that clairvoyants can use for scrying.  This one uses blood, but it's too dry and old to match with DNA.
+Evid|Yes

@@ -1,0 +1,134 @@
+Scene|Opening statments
+
+Diag|Diag1
+Name|Baliff
+Text|Court is now in session.  All rise for his honor, Judge Judge.
+Emot|Neutral
+
+Diag|Diag2
+Name|Judge
+Text|You may be seated.  Today we have the case of the people vs Crystal Ball.  We will now hear the opening statements.  Prosecution?
+Emot|Neutral
+
+Diag|Diag3
+Name|Yin Yang
+Text|Prosecutor Yin Yang. I will prove to this court, that the defendant, Miss Crystal Ball, provided clairvoyant intelligence to aid in the robbery of the First Bank of Mystics.  Intelligence that led directly to the assault and murder of Stan D. Engard, the guard on duty.
+Emot|Giving Info
+
+Diag|Diag4
+Name|Yin Yang
+Text|While Miss Ball was not the one who pulled the trigger, this death happened during a crime she assisted with, and in fact could not have happened without her direct input, making her guilty of felony murder!
+Emot|Angry
+
+Diag|Diag5
+Name|Yin Yang
+Text|Now, let us find the truth together.
+Emot|Calm
+
+Diag|Diag6
+Name|Judge
+Text|Very well stated, very emotional.  Defense?
+Emot|Neutral
+
+Diag|Diag7
+Name|Diana Vine
+Text|Okay, Diana.  Calm down.  You can do this.  Just remember your training.
+Emot|Nervous
+
+Diag|Diag8
+Name|Diana Vine
+Text|I can't remember anything!
+Emot|Panic
+
+Diag|Diag9
+Name|Judge
+Text|Diviner Vine?
+Emot|Annoyed
+
+Diag|Diag10
+Name|Diana Vine
+Text|I didn't do it! I'm innocent!
+Emot|Panic
+
+Diag|Diag11
+Name|Judge
+Text|...
+Emot|Stunned
+
+Diag|Diag12
+Name|Crystal Ball
+Text|...
+Emot|Stunned
+
+Diag|Diag13
+Name|Yin Yang
+Text|...
+Emot|Stunned
+
+Diag|Diag14
+Name|Diana
+Text|Um, sorry. I'm a bit nervous.
+Emot|Nervous
+
+Diag|Diag15
+Name|Yin Yang
+Text|This is your first case, isn't it?
+Emot|Friendly
+
+Diag|Diag16
+Name|Diana Vine
+Text|Um, yes.  Yes it is.
+Emot|Nervous
+
+Diag|Diag17
+Name|Yin Yang
+Text|We'll take it slowly together then.  Now, you need to present your opening argument.  Simply put, state why you feel your client is innocent, and how you intend to prove it.
+Emot|Friendly
+
+Diag|Diag18
+Name|Diana Vine
+Text|Okay...
+Emot|Nervous
+
+Diag|Diag19
+Name|Diana Vine
+Text|Your honor, gentlemen and ladies of the jury... I intend to prove, without a shadow of a doubt, that my friend Crystal-
+Emot|Confident
+
+Diag|Diag20
+Name|Yin Yang
+Text|"my client, Miss Ball"
+Emot|Friendly
+
+Diag|Diag19
+Name|Diana Vine
+Text|Sorry, my client, Miss Ball, is innocent of all crimes, because...
+Emot|Confident
+
+Diag|Diag20
+Name|Diana Vine
+Text|Becauseshe'smyfriendandshe'sniceandwouldneverdoanythingmean!
+Emot|Nervous
+
+Diag|Diag21
+Name|Judge
+Text|...
+Emot|Stunned
+
+Diag|Diag22
+Name|Crystal Ball
+Text|...
+Emot|Stunned
+
+Diag|Diag23
+Name|Yin Yang
+Text|...
+Emot|Stunned
+
+Diag|Diag24
+Name|Yin Yang
+Text|I would recommend working on that in the future, but for now let's just move on.
+Emot|Friendly
+
+Loop|No
+Next|/Resources/Dialogues/tutorial_intro2.txt

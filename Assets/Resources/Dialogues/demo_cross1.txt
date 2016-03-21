@@ -1,0 +1,229 @@
+Scene| demo_cross1. This explains the commands and functions of the cross examination feature
+
+Cross|Cross1
+Name|Intructor
+Text|This is a cross-examination. It functions very similar to a conversation, but with some added features.  There are two new buttons: "PRESS" and "EVIDENCE"  Please click the "SAVE" button now, and then push "PRESS" or push the Up Arrow.
+Emot|Neutral
+
+Press|Press1.1
+Name|Intructor
+Text|When you push the "PRESS" button it opens up a new sub-conversation, allowing you to gain more detailed information.
+Emot|Neutral
+
+Press|Press1.2
+Name|Intructor
+Text|Note this functions like it's own a conversation.  The "PRESS" and "EVIDENCE" buttons are gone, and you can't use "PREV" on the first dialogue after you pushed the "PRESS" button.
+Emot|Neutral
+
+Press|Press1.3
+Name|Intructor
+Text|When you hit "NEXT" on the final line from the Press tree, it will automatically jump to the next dialogue of the main Cross Examination.  Hitting "PREV" at that point will take you back to the previous Cross Examination dialogue, instead of the previous dialogue from the sub-conversation.
+Emot|Neutral
+
+Cross|Cross2
+Name|Intructor
+Text|Next is the Evidence button.  This will bring up Evidence that you can use to try to solve the puzzle.  Click on Evidence right now.  Clicking "BACK" or pressing Up Arrow will return you to the current dialogue.  Using the "NEXT" or "PREV" buttons will close the evidence while moving you forward or backward.
+Emot|Neutral
+
+Press|Press2.1
+Name|Intructor
+Text|No relevant information.  Hit "NEXT" to continue.
+Emot|Neutral
+
+Cross|Cross3
+Name|Intructor
+Text|Cross Evidence dialgoues use the same "Name", "Text", and "Emot" identifiers as Conversations. Unllike Conversations though, there are multiple different types of dialogues.  The most basic is this one which use "Cross" instead of "Diag" to identify that it's a cross examination.  The data for this line serves as the key, and is typically entered as Cross#. (Push "PRESS" for more details)
+Emot|Neutral
+
+Press|Press3.1
+Name|Intructor
+Text|Press dialogues use "Press" and automatically assign themeslves to either the previous Press, or the previous Cross dialogue in the text file.  The data is entered as PressX.# where X is the number of the Cross it is ultimately connected to.
+Emot|Neutral
+
+Cross|Cross4
+Name|Intructor
+Text|(4)Sometimes, Press will cause additional effects.  Push "NEXT" to see the next dialogue, then use "PREV" to return here and push "PRESS" here to see some examples and details.
+Emot|Neutral
+
+Press|Press4.1
+Name|Intructor
+Text|When you pushed PRESS here it had several effects.  First a "Press Alt" was created, meaning that this dialogue chain will only show up once, and then be replaced with an alternate dialogue.
+Emot|Neutral
+
+Press|Press4.2
+Name|Intructor
+Text|Secondly it added a new Cross Examination to be inserted into the dialogue, between the dialogue we were on, and the one it originally connected to.
+Emot|Neutral
+
+Press|Press4.3
+Name|Intructor
+Text|Finally we are using it to add an extra item to the inventory.  When you hit "NEXT", instead of going to another screen, you will get a notification that an item was just added to the inventory.  Hitting "NEXT" a second time will continue as normal. This is because this PRESS has an additional line with the identifier "Item" whose data is the dictionary key to the relevant item.
+Emot|Neutral
+Item|New Evidence
+
+Press|Press4.4
+Name|Intructor
+Text|Technically, an item insertion can be triggered by adding "Item" to any dialogue, but it is typically best to only do it on Press dialogue trees that will be replaced.
+Emot|Neutral
+
+PressAlt|PressAlt4.1
+Name|Intructor
+Text|This is a new Press dialogue that replaced the previous one.  Its identifier is "PressAlt" and uses the naming scheme "PressAltX.#" where X is the # of the Press it's replacing. it will chain to the most recent PressAlt or the most recent Cross, so it's important that it is placed between the previous Cross dialogue and the upcoming CrossAdded dialogue (although it doesn't matter if it's before or after "Press" or not.)
+Emot|Neutral
+
+CrossAdded|Cross5
+Name|Intructor
+Text|This dialogue wasn't here before, but is now.  It uses "CrossAdded" instead of "Cross" and will automatically connect itself to the previous Cross dialogue, but remain hidden until it's triggered. I still use "Cross#" for the naming scheme.
+Emot|Neutral
+
+PressAdded|Press5.1
+Name|Intructor
+Text|This is just the Press for a CrossAdded dialogue, and uses the identifier "PressAdded".  Other than that it acts just like a regular Press, connecting to the CrossAdded, instead of a regular Cross dialogue.  It uses the same name scheme "PressX.#" where X is the number of the CrossAdded.
+Emot|Neutral
+
+Cross|Cross6
+Name|Intructor
+Text|You can do all three of these effects seperately if you want.  For example, this dialogue has a PressAlt, so you will get a different Press conversation the second time you push "PRESS" but it does not add a new Cross dialogue to the main Cross Examination.
+Emot|Neutral
+
+Press|Press6.1
+Name|Intructor
+Text|This is the original Press conversation.
+Emot|Neutral
+
+PressAlt|PressAlt6.1
+Name|Intructor
+Text|This is the new Press conversation.
+Emot|Neutral
+
+Cross|Cross7
+Name|Intructor
+Text|The next dialogue is where we can present the evidence that will trigger the next dialogue. Click Evidence and make sure you have "New Evidence". If you don't have it, go to Cross4 (it is marked with a "(4)") and push "PRESS". It is strongly recommended you click "SAVE" at this point.
+Emot|Neutral
+
+Press|Press7.1
+Name|Intructor
+Text|"Save" stores the current hit points, which dialogue the game was saved on, all changes made to the Cross Examination dialogues, and what items are in the inventory.  THe hit points are saved as an int, the dialogue is saved by storing the dictionary key. The changes and inventory are stored via a string of binary numbers. Load brings the information back in to perfectly recreate your stae.
+Emot|Neutral
+
+
+Cross|Cross8
+Name|Intructor
+Text|This cross dialogue is where we can present the evidence that will trigger the next dialogue. It has an extra idenfitier called "Corr" which has the data matching the ID of the correct evidence (in this case "1.1.4" which is the ID for the "New Evidence" we got earlier.) Try presenting wrong information first, or hit "NEXT" to see the final aspects of the Cross Examination.  Select "New Evidence" and click "PRESENT" or press Down Arrow to continue.
+Emot|Neutral
+Corr|1.1.4
+
+Press|Press8.1
+Name|Intructor
+Text|When the correct evidence is presented, it loads the dialogue for the next part of the story.
+Emot|Neutral
+
+Diag|Consult1
+Name|Instructor
+Text|This is the "Consult".  It uses "Diag" instead of "Cross" but it connects to the dialogue just like a Cross does.  Note there's no "PRESS" or "EVIDENCE" here.  It acts just like a regular conversation. This is typically used to give the player a hint as to what to do next.
+Emot|Neutral
+
+Diag|Consult2
+Name|Instructor
+Text|Since "Loop" is set to "Yes" when you click "END!" it loops around back to the beginning.
+Emot|Neutral
+
+
+Note|The following is the Fail dialogue
+
+Fail|Fail1.1
+Name|Instructor
+Text|(1)If you "PRESENT" the wrong evidence (either because it's ID doesn't match, or because you are on the wrong dialogue) you will get a fail conversation.
+Emot|Neutral
+
+Fail|Fail1.2
+Name|Instructor
+Text|These use the "Fail" identifier, and are labeled "Fail#.#"  Like other dialogues, they automatically link into a chain with the previous Fail.  Unlike others, the first one isn't linked to anything, but instead is put into a seperate array.  A special identifier "NewF" is used to mark where one Fail conversation ends and another begins. It's data is unimportant.
+Emot|Neutral
+
+Fail|Fail1.3
+Name|Instructor
+Text|One of the Fail dialogues is chosen at randomly from a list. This is just for variety, they all do the same thing. In fact for this demo, the only difference is at the beginning of the fail dialogue.
+Emot|Neutral
+
+Fail|Fail1.4
+Name|Instructor
+Text|They will instruct the player that they have failed, and then punish the player by reducing their hit points.
+Emot|Neutral
+
+Fail|Fail1.5
+Name|Instructor
+Text|If the players hit points are above 0, they will be returned to the conversation they were just on. If they've been reduced to 0 hit points, they will be brought to the game over screen.
+Emot|Neutral
+
+NewF|Yes
+
+Fail|Fail2.1
+Name|Instructor
+Text|(2)If you "PRESENT" the wrong evidence (either because it's ID doesn't match, or because you are on the wrong dialogue) you will get a fail conversation.
+Emot|Neutral
+
+Fail|Fail2.2
+Name|Instructor
+Text|These use the "Fail" identifier, and are labeled "Fail#.#"  Like other dialogues, they automatically link into a chain with the previous Fail.  Unlike others, the first one isn't linked to anything, but instead is put into a seperate array.  A special identifier "NewF" is used to mark where one Fail conversation ends and another begins. It's data is unimportant.
+Emot|Neutral
+
+Fail|Fail2.3
+Name|Instructor
+Text|One of the Fail dialogues is chosen at randomly from a list. This is just for variety, they all do the same thing. In fact for this demo, the only difference is at the beginning of the fail dialogue.
+Emot|Neutral
+
+Fail|Fail2.4
+Name|Instructor
+Text|They will instruct the player that they have failed, and then punish the player by reducing their hit points.
+Emot|Neutral
+
+Fail|Fail2.5
+Name|Instructor
+Text|If the players hit points are above 0, they will be returned to the conversation they were just on. If they've been reduced to 0 hit points, they will be brought to the game over screen.
+Emot|Neutral
+
+NewF|Yes
+
+Fail|Fail3.1
+Name|Instructor
+Text|(3)If you "PRESENT" the wrong evidence (either because it's ID doesn't match, or because you are on the wrong dialogue) you will get a fail conversation.
+Emot|Neutral
+
+Fail|Fail3.2
+Name|Instructor
+Text|These use the "Fail" identifier, and are labeled "Fail#.#"  Like other dialogues, they automatically link into a chain with the previous Fail.  Unlike others, the first one isn't linked to anything, but instead is put into a seperate array.  A special identifier "NewF" is used to mark where one Fail conversation ends and another begins. It's data is unimportant.
+Emot|Neutral
+
+Fail|Fail3.3
+Name|Instructor
+Text|One of the Fail dialogues is chosen at randomly from a list. This is just for variety, they all do the same thing. In fact for this demo, the only difference is at the beginning of the fail dialogue.
+Emot|Neutral
+
+Fail|Fail3.4
+Name|Instructor
+Text|They will instruct the player that they have failed, and then punish the player by reducing their hit points.
+Emot|Neutral
+
+Fail|Fail3.5
+Name|Instructor
+Text|If the players hit points are above 0, they will be returned to the conversation they were just on. If they've been reduced to 0 hit points, they will be brought to the game over screen.
+Emot|Neutral
+
+
+
+Note| The following is the Game Over Text
+
+GameOver|GameOver1
+Name|Instructor
+Text|Once the player is out of hit points from proposing bad evidence, the game will load the Game Over Dialogue.  This has the identifier "GameOver" and the data is formatted as "GameOver#"
+Emot|Neutral
+
+GameOver|GameOver2
+Name|Instructor
+Text|The final version of the game will give the player the option of loading their save game, or returning to the title screen.  This version just ends here, and the player can restore their game using the Load Button.
+Emot|Neutral
+
+
+Loop|Yes
+Next|/Resources/Dialogues/demo_cross2.txt

@@ -1,0 +1,25 @@
+Scene| test2
+Cross|Cross1
+Name|Diane Vine
+Text|You'll find this evidence proves my client is absoultely innocent!
+Emot|Confident
+
+Cross|Cross2
+Name|Judge
+Text|You're right! Case dismissed!
+Emot|Surprised
+Lose|DNA Evidence
+
+Cross|Cross3
+Name|Diane Vine
+Text|That was easy.
+Emot|Confused
+
+Cross|Cross2
+Name|Judge
+Text|Well, it was the test case. Now let's do it all over again.
+Emot|Surprised
+
+
+Loop|No
+Next|/Dialogues/test_cross1.txt

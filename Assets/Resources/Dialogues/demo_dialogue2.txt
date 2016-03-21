@@ -1,0 +1,46 @@
+Scene|demo explaining how the elements of the dialogue works.
+Note|Both Note and Scene do nothing. Scene is used to describe the scene for filing and reference purposes.
+Note|Note is used to add comments to the information.
+
+Diag|Diag1
+Name|Instructor 
+Text|Here we will discuss the different elements of the dialogue and what they look like in the text file.  This information can be viewed easily by opening "demo_dialogue2.txt".
+Emot|Neutral
+
+Diag|Diag2
+Name|Instructor 
+Text|Dialogue is read in from a text file.  Each dialogue is read from four or more lines of text. Each line has an identifier, followed by a deliminator and then the actual data.  "Note" and "Scene" are not actually read by the system and are used for documentation purposes.
+Emot|Neutral
+
+Diag|Diag3
+Name|Instructor 
+Text|The first line identifies what kind of dialogue we are creating. It gets complicated during court cases, but for simple dialogues, it is almost always simply "Diag". The data is the name of the dictionary key it's being stored in. For simplicity, I label them each Diag# in ascending order.
+Emot|Neutral
+
+Diag|Diag4
+Name|Speaker 
+Text|Next comes "Name" which identifies who is speaking the dialogue. This fills the upper left box. Once the game is more developed, it will also move the camera to the speaker and prep them for animation. As you can see, the name switched from "Instructor" to "Speaker."
+Emot|Neutral
+
+Diag|Diag5
+Name|Instructor 
+Text|Next is the "Text" item which is what fills the dialogue box.
+Emot|Neutral
+
+Diag|Diag6
+Name|Instructor 
+Text|Finally is the "Emot" item. Ultimately this will be used to establish what kind of animation the character should perform.  Right now it simply fills in the second text field above this one.  In the final version, the text field will be removed.  We'll let the actions tell us what's going on.
+Emot|Informative
+
+Diag|Diag
+Name|Instructor 
+Text|There are two special commands that come at the bottom of the file.  "Loop" marks whether or not the dialogue should go in a loop.  Standard conversations will rarely, if ever do that, but most cross examinations loop around until you find the way to move forward.  More on that later.
+Emot|Neutral
+
+Diag|Diag
+Name|Instructor 
+Text|Finally, there is "Next" which has the path to the next dialogue.  When "End!" is pressed, it uses this to find out what dialogue it should move to next. Press "End!" now and we will look at the differences in a cross examination.
+Emot|Neutral
+
+Loop|No
+Next|/Resources/Dialogues/demo_cross1.txt

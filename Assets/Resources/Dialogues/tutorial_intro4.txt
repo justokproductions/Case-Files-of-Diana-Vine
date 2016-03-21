@@ -1,0 +1,79 @@
+Scene|Prep for cross examination
+
+Diag|Diag1
+Name|Yin Yang
+Text|Your witness, Diviner Vine.
+Emot|Friendly
+
+Diag|Diag2
+Name|Diana Vine
+Text|Oh, right.  This is when I ask your witness questions, and then find holes in his story.
+Emot|Nervous
+
+Diag|Diag3
+Name|Yin Yang
+Text|And then present evidence, proving the contradictions.
+Emot|Friendly
+
+Diag|Diag4
+Name|Diana Vine
+Text|Right.  Evidence.  Evidence...
+Emot|Nervous
+
+Diag|Diag5
+Name|Diana Vine
+Text|(Where did I put all my evidence!)
+Emot|Panic
+
+Diag|Diag6
+Name|Yin Yang
+Text|The evidence has already been submitted to the case.  Here I'll help you out.
+Emot|Friendly
+
+Diag|Diag7
+Name|Yin Yang
+Text|You always want to start out with the bio of your defendant.  If you don't know your defendant, you will never be able to prove anything.
+Emot|Friendly
+Item|Bio: Crystal Ball
+
+Diag|Diag8
+Name|Yin Yang
+Text|We also have Mister Banks's rap sheet. His criminal connections are key to the case.
+Emot|Friendly
+Item|Rap sheet
+
+Diag|Diag9
+Name|Yin Yang
+Text|Here are the blueprints to the bank.  The location of the two guards are marked as is the entry point the bank robbers used and where we found the fetish used for scrying.
+Emot|Friendly
+Item|Bank map
+
+Diag|Diag10
+Name|Yin Yang
+Text|And finally, the fetish itself.
+Emot|Friendly
+Item|Scrying fetish
+
+Diag|Diag11
+Name|Diana Vine
+Text|Wow, that's a lot of evidence.
+Emot|Neutral
+
+Diag|Diag12
+Name|Yin Yang
+Text|Actually this is a pretty straight forward case.  Most of the time, you'll have to deal with a lot more. Now, please review Mister Bank's testimony.  If you wish to know more, you can PRESS him, and ask follow up questions.
+Emot|Friendly
+
+Diag|Diag13
+Name|Yin Yang
+Text|If you feel he is lying about something, you must prove it.  Look at your EVIDENCE, and then PRESENT the piece of evidence that proves a contradiction in his testimony.
+Emot|Friendly
+
+Diag|Diag14
+Name|Diana Vine
+Text|Alright.  Let's do this!
+Emot|Determined
+
+
+Loop|No
+Next|/Resources/Dialogues/tutorial_cross1.txt

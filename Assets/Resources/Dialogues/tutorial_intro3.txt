@@ -1,0 +1,90 @@
+Scene|Robin Banks's testimony
+
+Diag|Diag1
+Name|Yin Yang
+Text|Now, Mister Banks.  Please state your occupation.
+Emot|Serious
+
+Diag|Diag2
+Name|Robin Banks
+Text|I am a real estate consultant.
+Emot|Smug
+
+Diag|Diag3
+Name|Yin Yang
+Text|Your REAL occupation.
+Emot|Serious
+
+Diag|Diag4
+Name|Robin Banks
+Text|*Sigh* I'mma bank robber.
+Emot|Defeated
+
+Diag|Diag5
+Name|Yin Yang
+Text|Not just any bank robber.  But one of the three that attempted to rob the First Bank of Mystics on Tuesday, March 14th.  You have confessed to this crime, correct?
+Emot|Friendly
+
+Diag|Diag6
+Name|Robin Banks
+Text|Yeah, dat's about right. But Imma gettin a lighter sentence onna counta me bein a cooperatin' witness.
+Emot|Happy
+
+Diag|Diag7
+Name|Yin Yang
+Text|Indeed.  Which brings us to the big question.  Why don't you explain to us what happened, and Miss Ball's involvement.
+Emot|Friendly
+
+Diag|Diag8
+Name|Robin Banks
+Text|Sure.  I cans do that.
+Emot|Happy
+
+Diag|Diag9
+Name|Robin Banks
+Text|So we was all set to rob da bank.  The tricky part is the guards.
+Emot|Happy
+
+Diag|Diag10
+Name|Robin Banks
+Text|Sees, there's always a guard at the front door, but there's also anudder guard patrollin.  An he can be anywheres. Ya don't want to bust in, unless yeh know where both guards are.
+Emot|Serious
+
+Diag|Diag11
+Name|Robin Banks
+Text|So we's got my good friend Crystal there, to set up a scry, an’ warn us where the guard was.
+Emot|Happy
+
+Diag|Diag12
+Name|Robin Banks
+Text|So she was watchin' everythin' remotely, and warns us that the guard is behind that pillar there.
+Emot|Serious
+
+Diag|Diag13
+Name|Robin Banks
+Text|We subdue the guard at the front, and move in to take out the second guard.  Things went a lil' sideways, an’ Battery shot the guard.
+Emot|Upset
+
+Diag|Diag14
+Name|Robin Banks
+Text|So we grabbed the loot and fled the scene.
+Emot|Serious
+
+Diag|Diag15
+Name|Robin Banks
+Text|We almost got away, but then-
+Emot|Serious
+
+Diag|Diag16
+Name|Yin Yang
+Text|Yes, yes, after that, you were caught during a high speed chase across three counties leading to a massive battle between you and the paladins, and ultimately ended, when paladin Jubei used his previous ninja experience, to sneak in and subdue you single handedly. But nobody cares about that. 
+Emot|Bored
+
+Diag|Diag17
+Name|Yin Yang
+Text|Not when we have LAW to practice!
+Emot|Excited
+
+
+Loop|No
+Next|/Resources/Dialogues/tutorial_intro4.txt

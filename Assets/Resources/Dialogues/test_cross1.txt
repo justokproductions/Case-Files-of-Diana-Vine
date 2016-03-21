@@ -1,0 +1,236 @@
+Scene| test
+
+Cross|Cross0
+Name|Wright Weigh
+Text|I was on the scene to investigate some evidence.
+Emot|Normal
+
+Press|Press0.1
+Name|Diana Vine
+Text|What evidence?
+Emot|Curious
+
+Press|Press0.2
+Name|Wright Weigh
+Text|This evidence.
+Emot|Bored
+Item|DNA Evidence
+
+PressAlt|PressAlt0.1
+Name|Diana Vine
+Text|What evidence?
+Emot|Curious
+
+PressAlt|PressAlt0.2
+Name|Wright Weigh
+Text|The evidence I just gave you.
+Emot|Bored
+
+Cross|Cross1
+Name|Wright Weigh
+Text|I first became suspicious when the suspect did something suspicious.
+Emot|Normal
+
+Press|Press1.1
+Name|Diana Vine
+Text|Something suspicious?  Can you elaborate on that?
+Emot|Thoughtful
+
+Press|Press1.2
+Name|Wright Weigh
+Text|He was doing something, and I found it suspicous that he was doing it.
+Emot|Haughty
+
+Press|Press1.3
+Name|Diana Vine
+Text|Can you give me a little more than that?
+Emot|Annoyed
+
+Press|Press1.4
+Name|Wright Weigh
+Text|No. I'm good.
+Emot|Haughty
+
+Press|Press1.5
+Name|Diana Vine
+Text|(This is like pulling teeth.)
+Emot|Annoyed
+
+Cross|Cross2
+Name|Wright Weigh
+Text|I arrested the suspect shortly after that.
+Emot|Normal
+nNext|Cross3
+nPress|Press2alt.1
+
+Press|Press2.1
+Name|Diana Vine
+Text|You can't just arrest somebody because they did something suspicious!
+Emot|Excited
+
+Press|Press2.2
+Name|Wright Weigh
+Text|I didn't.  While I was suspecting him of committing a crime, I saw him commit the crime.
+Emot|Bored
+
+Press|Press2.3
+Name|Diana Vine
+Text|Why didn't you say that before?!
+Emot|Angry
+
+Press|Press2.4
+Name|Wright Weigh
+Text|I'm not here to do your job for you.
+Emot|Bored
+
+Press|Press2.5
+Name|Diana Vine
+Text|(Giving evidence isn't MY job...)
+Emot|Annoyed
+
+Press|Press2.6
+Name|Diana Vine
+Text|This is very important.  Judge I insist this be added to the testimony!
+Emot|Angry
+
+Press|Press2.7
+Name|Elvis Judge
+Text|You heard the pretty mama!
+Emot|Calm
+
+Press|Press2.8
+Name|Wright Weigh
+Text|Very well.
+Emot|Annoyed
+
+PressAlt|Press2alt.1
+Name|Diana Vine
+Text|And why did you arrest him?
+Emot|Curious
+
+PressAlt|Press2alt.2
+Name|Wright Weigh
+Text|Because it's my job...
+Emot|Bored
+
+CrossAdded|Cross3
+Name|Wright Weigh
+Text|After all, I had just seen him committ the crime.
+Emot|Annoyed
+Corr|1.1.0
+
+PressAdded|Press3.1
+Name|Diane Vine
+Text|What crime was that?
+Emot|Curious
+
+PressAdded|Press3.2
+Name|Wright Weigh
+Text|The crime he's on trial for of course.
+Emot|Bored
+
+Cross|Cross4
+Name|Wright Weigh
+Text|Then I took him straight to jail, and that was that.
+Emot|Bored
+
+Press|Press4.1
+Name|Diana Vine
+Text|Wait a minute!  Did you read him his rights?!
+Emot|Determined
+
+Press|Press4.2
+Name|Wright Weigh
+Text|Of course I did.  That's so obvious I didn't bother even mentioning it.
+Emote|Bored
+
+Diag|Conclusion.1
+Name|Diana Vine
+Text|I need to find a hole in this testimony...
+Emot|Thinking
+
+Diag|Conclusion.2
+Name|Diana Vine
+Text|But there's barely anything to work with...
+Emot|Thinking
+
+Diag|Conclusion.3
+Name|Familiar
+Text|Thats okay, it's just a test case.
+Emot|Bored
+
+Fail|Fail1.1
+Name|Diana Vine
+Text|Your honor! This evidence clearly proves that the witness is lying?!
+Emot|Excited
+
+Fail|Fail1.2
+Name|Elvis Judge
+Text|No it doesn't.
+Emot|Bored
+
+Fail|Fail1.3
+Name|Diana Vine
+Text|Are you sure?
+Emot|Nervous
+
+Fail|Fail1.4
+Name|Elvis Judge
+Text|Yes.
+Emot|Bored
+
+Fail|Fail1.5
+Name|Diana Vine
+Text|Are you absolutely sure?
+Emot|Nervous
+
+Fail|Fail1.6
+Name|Elvis Judge
+Text|Yes! I suggest you try something else!
+Emot|Bored
+
+Fail|Fail1.7
+Name|Diana Vine
+Text|Rats, I thought i had something there.
+Emot|Nervous
+
+NewF|Yes
+
+Fail|Fail2.1
+Name|Diana Vine
+Text|Your honor! There is a clear contradiction in his statement!
+Emot|Excited
+
+Fail|Fail2.2
+Name|Elvis Judge
+Text|Really?  Where?
+Emot|Confused
+
+Fail|Fail2.3
+Name|Diana Vine
+Text|He combined "did" and "not" to form "didn't"!
+Emot|Excited
+
+Fail|Fail2.4
+Name|Elvis Judge
+Text|That's a contraction, not a contradiction. I think you need a new dictionary.
+Emot|Angry
+
+Fail|Fail2.5
+Name|Diana Vine
+Text|(Great. I've got nothing to work with, and the judge thinks I'm an idiot...)
+Emot|Nervous
+
+GameOver|GameOver1
+Name|Elvis Judge
+Text|I think we've let this go on long enough.
+Emot|Angry
+
+GameOver|GameOver1
+Name|Elvis Judge
+Text|I find the defendant guilty of whatever crime it was that he was accused of!
+Emot|Angry
+
+
+Loop|Yes
+Next|/Dialogues/test_cross2.txt
